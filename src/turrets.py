@@ -8,7 +8,7 @@ import math
 turret_data = {
     "Cabbage Cannon": [150, 175, projectiles.Cabbage, 200],
     "Juice Rocket": [350, 350, projectiles.Rocket, 600],
-    "Glue Gun": [250, 125, projectiles.Glue, 300]
+    "Glue Gun": [200, 150, projectiles.Glue, 250]
 }
 
 
