@@ -19,6 +19,8 @@ class Slideshow:
 
         self.current_slide += 1
         self.image = self.slides[self.current_slide]
+        self.controller.sound_engine.queue_sound(("button_click", 0))
+        self.controller.sound_engine.play_sounds()
 
     def run(self):
         game_exit = False
